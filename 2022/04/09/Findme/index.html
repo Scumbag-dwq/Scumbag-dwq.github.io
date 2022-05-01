@@ -1,0 +1,434 @@
+
+
+<!DOCTYPE html>
+<html lang="en" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Findme - Hexo</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  
+  <meta name="description" content="
+题目链接：
+https://buuoj.cn/cha...">
+  <meta name="author" content="John Doe">
+  <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/favicon-144x144.png">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+    
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css" name="highlight-style" mode="light">
+
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/solarized-dark.min.css" name="highlight-style" mode="dark">
+
+      
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'false',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: true,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: true
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: true
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '我在开了灯的床头下，想问问自己的心啊。',
+          typing: true,
+          api: 'https://v2.jinrishici.com/one.json',
+          data_contents: '["data","content"]'
+        },
+      },
+      qrcode: {
+        enable: true,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: false,
+        path: ''
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
+    
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconhome j-navbar-back-home"></i>
+      
+      
+        <i class="iconfont iconqrcode j-navbar-qrcode"></i>
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
+    </div>
+    <div class="center">Findme</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
+    </div>
+    
+      <div id="qrcode-navbar"></div>
+    
+  </nav>
+
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/galleries/ " class="underline "> 摄影</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/tags/ " class="underline "> 标签</a>
+      </li><li class="menu-item">
+        <a href="/categories/ " class="underline "> 分类</a>
+      </li><li class="menu-item">
+        <a href="/about/ " class="underline "> 关于</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">Findme</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>April 09, 2022</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>2048</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        
+        <blockquote>
+<p>题目链接：</p>
+<p><a target="_blank" rel="noopener" href="https://buuoj.cn/challenges#[%E6%B9%96%E5%8D%97%E7%9C%81%E8%B5%9B2019]Findme">https://buuoj.cn/challenges#[%E6%B9%96%E5%8D%97%E7%9C%81%E8%B5%9B2019]Findme</a></p>
+</blockquote>
+<front size="4">
+
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409162150260.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409162150260</span></p>
+<p>得到5张图片</p>
+<h2 id="1-png"><a href="#1-png" class="headerlink" title="1.png"></a>1.png</h2><p>明显修改了高度和宽度。</p>
+<p>脚本爆破</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> zlib</span><br><span class="line"><span class="keyword">import</span> struct</span><br><span class="line">file = <span class="string">&#x27;1.png&#x27;</span></span><br><span class="line">fr = <span class="built_in">open</span>(file,<span class="string">&#x27;rb&#x27;</span>).read()</span><br><span class="line">data = <span class="built_in">bytearray</span>(fr[<span class="number">12</span>:<span class="number">29</span>])</span><br><span class="line"><span class="comment">#crc32key = eval(str(fr[29:33]).replace(&#x27;\\x&#x27;,&#x27;&#x27;).replace(&quot;b&#x27;&quot;,&#x27;0x&#x27;).replace(&quot;&#x27;&quot;,&#x27;&#x27;))</span></span><br><span class="line">crc32key = <span class="number">0xC4ED3</span></span><br><span class="line"><span class="comment">#data = bytearray(b&#x27;\x49\x48\x44\x52\x00\x00\x01\xF4\x00\x00\x01\xF1\x08\x06\x00\x00\x00&#x27;)</span></span><br><span class="line">n = <span class="number">4095</span></span><br><span class="line"><span class="keyword">for</span> w <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">    width = <span class="built_in">bytearray</span>(struct.pack(<span class="string">&#x27;&gt;i&#x27;</span>, w))</span><br><span class="line">    <span class="keyword">for</span> h <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">        height = <span class="built_in">bytearray</span>(struct.pack(<span class="string">&#x27;&gt;i&#x27;</span>, h))</span><br><span class="line">        <span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">            data[x+<span class="number">4</span>] = width[x]</span><br><span class="line">            data[x+<span class="number">8</span>] = height[x]</span><br><span class="line">            <span class="comment">#print(data)</span></span><br><span class="line">        crc32result = zlib.crc32(data)</span><br><span class="line">        <span class="keyword">if</span> crc32result == crc32key:</span><br><span class="line">            <span class="built_in">print</span>(width,height)</span><br><span class="line">            <span class="built_in">print</span>(data)</span><br><span class="line">            newpic = <span class="built_in">bytearray</span>(fr)</span><br><span class="line">            <span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">                newpic[x+<span class="number">16</span>] = width[x]</span><br><span class="line">                newpic[x+<span class="number">20</span>] = height[x]</span><br><span class="line">            fw = <span class="built_in">open</span>(file+<span class="string">&#x27;.png&#x27;</span>,<span class="string">&#x27;wb&#x27;</span>)</span><br><span class="line">            fw.write(newpic)</span><br><span class="line">            fw.close</span><br></pre></td></tr></table></figure>
+
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/1.png.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">1.png</span></p>
+<p>还是看不见，放进010中看看</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409162426036.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409162426036</span></p>
+<p>发现chunk[2]、chunk[3]少了IDAT标识</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409162520430.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409162520430</span></p>
+<p>加上就可</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/1.png-16494927436151.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">1.png</span></p>
+<p>可以正常看到了</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409162659888.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409162659888</span></p>
+<p>用stegsolve在某一通道中看到一个二维码</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409162752252.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409162752252</span></p>
+<p>得到一部分编码</p>
+<h2 id="2-png"><a href="#2-png" class="headerlink" title="2.png"></a>2.png</h2><p>010打开2.png</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409162911876.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409162911876</span></p>
+<p>这边一直到文件尾都是37 7A 03 04，很像zip文件的50 4B 03 04</p>
+<p>把这部分的数据提取出来，把所有7z改成PK</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409163209774.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409163209774</span></p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409163238039.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409163238039</span></p>
+<p>解压出1000个文本，按大小排序下</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409163306669.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409163306669</span></p>
+<p>在618.txt中发现了一部分编码</p>
+<h2 id="3-png"><a href="#3-png" class="headerlink" title="3.png"></a>3.png</h2><p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409163432604.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409163432604</span></p>
+<p>chunk[0]-chunk[6]的crc都是可打印的ASCII字符，</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">0x33</span>,<span class="number">0x52</span>,<span class="number">0x6C</span>,<span class="number">0x5A</span>,<span class="number">0x33</span>,<span class="number">0x30</span>,<span class="number">0x3D</span>]</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> a:</span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">chr</span>(i),end=<span class="string">&quot;&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409163528627.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409163528627</span></p>
+<p>得到第三部分</p>
+<h2 id="4-png"><a href="#4-png" class="headerlink" title="4.png"></a>4.png</h2><p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409163633345.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409163633345</span></p>
+<p>在exiftool中看到第四部分</p>
+<h2 id="5-png"><a href="#5-png" class="headerlink" title="5.png"></a>5.png</h2><p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409163732268.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409163732268</span></p>
+<p>第5部分在文件尾部看到</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409163806571.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409163806571</span></p>
+<p>得到了这些，但是顺序不确定，最后按照1、5、4、2、3的顺序得到flag</p>
+<p><img   class="lazyload" data-original="/2022/04/09/Findme/image-20220409164041785.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" ><span class="image-caption">image-20220409164041785</span></p>
+<h1 id="Flag"><a href="#Flag" class="headerlink" title="Flag"></a>Flag</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">flag&#123;4_v3rY_sIMpLe_PlcTUre_steg&#125;</span><br></pre></td></tr></table></figure>
+
+</front>
+      </section>
+      <section class="extra">
+        
+          <ul class="copyright">
+  
+    <li><strong>本文作者：</strong>John Doe</li>
+    <li><strong>本文链接：</strong><a href="http://example.com/2022/04/09/Findme/index.html" title="http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;04&#x2F;09&#x2F;Findme&#x2F;index.html">http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;04&#x2F;09&#x2F;Findme&#x2F;index.html</a></li>
+    <li><strong>版权声明：</strong>本博客所有文章均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" title="BY-NC-SA" target="_blank" rel="noopener">BY-NC-SA</a> 许可协议，转载请注明出处！</li>
+  
+</ul>
+        
+        
+          <section class="donate">
+  <div id="qrcode-donate">
+    <img   class="lazyload" data-original="https://pic.izhaoo.com/alipay.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" >
+  </div>
+  <div class="icon">
+    <a href="javascript:;" id="alipay"><i class="iconfont iconalipay"></i></a>
+    <a href="javascript:;" id="wechat"><i class="iconfont iconwechat-fill"></i></a>
+  </div>
+</section>
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a href="/2022/04/09/hashcat/"><i class="iconfont iconleft"></i>hashcat</a>
+    <a href="/2022/04/09/excel-%E9%AA%9A%E6%93%8D%E4%BD%9C/">excel-骚操作<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%86%E6%9E%90"><span class="toc-text">分析</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-png"><span class="toc-text">1.png</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-png"><span class="toc-text">2.png</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-png"><span class="toc-text">3.png</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-png"><span class="toc-text">4.png</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-png"><span class="toc-text">5.png</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Flag"><span class="toc-text">Flag</span></a></li></ol>
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"><a 
+        href="tencent://message/?Menu=yes&uin=894519210 "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#12B7F5'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconQQ "></i>
+      </a><a 
+        href="javascript:; "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#09BB07'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconwechat-fill "></i>
+      </a><a 
+        href="https://www.instagram.com/izhaoo/ "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#DA2E76'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconinstagram "></i>
+      </a><a 
+        href="https://github.com/zhaoo "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#9f7be1'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  icongithub-fill "></i>
+      </a><a 
+        href="mailto:izhaoo@163.com "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color=#FF3B00" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconmail"></i>
+      </a></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+  <script>
+    (function () {
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
